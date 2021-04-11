@@ -17,6 +17,8 @@ ext {
 }
 
 dependencies {
+    implementation group: 'org.jasypt', name: 'jasypt', version: '1.9.2'
+    implementation group: 'com.github.ulisesbocchio', name: 'jasypt-spring-boot-starter', version: '3.0.3'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-config-server'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
